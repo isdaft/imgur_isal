@@ -1,0 +1,29 @@
+{
+  "name": "imgur_sal",
+  "version": "0.0.1",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isdaft/imgur_isal.git"
+  },
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "imgur",
+    "search"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isdaft/imgur_isal/issues"
+  },
+  "homepage": "https://github.com/isdaft/imgur_isal#readme"
+}
