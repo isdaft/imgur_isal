@@ -11,9 +11,11 @@ Returns all results for said search term.
 store each search session in mongodb
 -when api/latest/imagesearch is hit, return latest imagesearch from mongodb
 
-sort through data and assign to variables
-create json and populate fields
-link app.get 
+[done] sort through data and assign to variables
+[done] create json and populate fields
+[done] link app.get
+[done] output json correctly
+[ ] 
 
 #EXTRA TO DO
 html/css search and return (maybe angular?)

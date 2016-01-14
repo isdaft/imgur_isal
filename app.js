@@ -29,7 +29,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-
+app.get('/', routes.index);
 app.get('/api/imagesearch/:search', imgur.getPath); //app.post? rem
 app.get('/api/latest/imagesearch', imgur.latestSearch)
 //app.get('/:http://:link/:extra', imgur.getHttp);
